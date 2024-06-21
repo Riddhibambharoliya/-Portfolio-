@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-96d9pAto2o5giRqB1yF/5DW+iRTjwPoC2DMyMc8zlZV/UMwGjgvvOWh8FbDN3bWszMr52rJfDzEkDYPWzhbC5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sedan+SC:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-/zGzloBcz4NJm2sLQ/vMkVlEFt69G+u5z/y9zg1/+vP3xJn/yM70H47BDsX8jJMFfDkwMXA/xvTfj9ZGnojw+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-jLKHWMn1P9Fr20jK1PddktJdF5hU6nGkhs5e/g8aW8z0q7U73e4Qo2P4Nm3pPxd3" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" onclick="toggleNavbar()">
+                &#9776;
+            </button>
+            <div class="navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Name Section -->
+    <section id="name" class="name-section">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Bambharoliya Riddhi</h1>
+            <p class="intro-text">Hi, I’m Riddhi! Passionate about crafting intuitive and visually appealing web experiences.</p>
+            <p class="profession">Frontend Developer</p>
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-text"><span class="wave">👋</span> Welcome! I'm a passionate Front-end Developer and Designer dedicated to crafting exceptional websites. With HTML ✨, CSS 🎨, JavaScript 🔧, Bootstrap 🌐, and React ⚛️ in my toolkit, I specialize in creating captivating user experiences. I bring creativity and precision to every project, aiming to set new standards in web development. Let's collaborate and elevate your digital presence together!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <!-- Education Section -->
+    <section id="education" class="education-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Education</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="education-item mb-4">
+                        <p><strong>Degree:</strong> Bachelor of Engineering in Computer Science (GTU)</p>
+                        <p><strong>Graduation Year:</strong> 2021-2024</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="education-item mb-4">
+                        <p><strong>Degree:</strong> Diploma in Computer Engineering (GTU)</p>
+                        <p><strong>Graduation Year:</strong> 2018-2021</p>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Experience</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="experience-item mb-4">
+                        <h3>InfoLabz IT Services Pvt. Ltd.</h3>
+                        <p><strong>Position:</strong> Frontend Developer Intern (01/2024 - 04/2024)</p>
+                        <ul>
+                            <li>Developed frontend components and user interfaces for the EONICINDIA online hardware showcase project using React. Utilized React.js, CSS, and HTML to create responsive and interactive web pages.</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col-lg-12">
+                    <div class="experience-item mb-4">
+                        <h3>BrainyBeam info-tech Pvt. Ltd.</h3>
+                        <p><strong>Position:</strong> Ruby on Rails Developer Intern (06/2023 - 11/2023)</p>
+                        <ul>
+                            <li>Acquired knowledge of Model-View-Controller (MVC) architecture, a design pattern commonly used in web development, through hands-on experience and guided learning sessions.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+<!-- project section -->
+<section id="projects" class="projects-section bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="project1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">MVSchool-Botad</h5>
+                        <p class="card-text">Comprehensive React-based project aimed at developing a dynamic and user-friendly website for a school.</p>
+                        <a href="https://www.mv-school.in/" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="project2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">EonicIndia</h5>
+                        <p class="card-text">React.js project translating the company's commitment to excellence into a seamless online experience for customers.</p>
+                        <a href="https://www.eonicindia.in/" class="btn btn-primary" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="section-title text-white mb-4">Contact Me</h2>
+            <p class="section-description text-white mb-4">Feel free to reach out to me through any of these channels.</p>
+            <!-- Social Media Icons -->
+            <div class="social-links">
+                <a href="tel:+919558588971" class="phone"><i class="fas fa-phone"></i> Call Me</a>
+                <a href="https://www.linkedin.com/in/riddhi-bambhroliya-12467627a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Riddhibambharoliya" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="http://www.instagram.com/riddhi_patel46?igsh=eHJyNXpjbWJjeGw0" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="mailto:riddhibambhroliya1234@gmail.com" ><i class="fas fa-envelope"></i> Gmail</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer py-4 bg-dark">
+        <div class="container text-center">
+            <p class="text-white">&copy; 2024 Bambharoliya Riddhi. All rights reserved. <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
