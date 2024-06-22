@@ -34,8 +34,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand {
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    font-family: "Laila", serif;
+    color: #f009ae;
     text-decoration: none;
     transition: color 0.3s;
 }
